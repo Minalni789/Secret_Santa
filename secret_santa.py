@@ -3,7 +3,7 @@ import random as rand
 names = input("Enter the names of the participants separated by space: ").split()
 
 
-def santas_elves(santa_list):
+def santas_elves(santa_list): 
     presents = rand.sample(names,len(names))
 
 
